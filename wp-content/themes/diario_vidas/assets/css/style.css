@@ -1,0 +1,31 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
+@font-face {
+    font-family: 'impact_label_reversedregular';
+    src: url('..fonts/impact_label_reversed-webfont.woff2') format('woff2'),
+         url('..fonts/impact_label_reversed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'impact_labelregular';
+    src: url('..fonts/impact_label-webfont.woff2') format('woff2'),
+         url('..fonts/impact_label-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --principal_color: rgb(24, 37, 170);
+    --font_color: rgb(51, 51, 51);
+}
+
+html, body{
+    box-sizing: border-box;
+    color: var(--font_color);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}

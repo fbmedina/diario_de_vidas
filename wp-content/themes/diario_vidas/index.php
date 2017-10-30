@@ -1,6 +1,10 @@
 <?php get_header() ?>
 
-<h1>Body de la página de inicio</h1>
-<?php get_sidebar() ?>
+<div class="landing">
+	<h1>Diario de Vidas</h1>
+	<div class="description">
+		<p>Autobiografía y relatos de vida para el apoyo a la diversidad sexual adolescente.</p>
+	</div>
+</div>
 
 <?php get_footer() ?>

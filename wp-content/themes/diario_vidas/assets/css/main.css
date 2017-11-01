@@ -28,10 +28,16 @@ html, body{
     font-family: 'Cutive Mono', monospace;
     text-align: justify;
     height: 100%;
+    font-size: 14px;
 }
 
 *, *::before, *::after {
     box-sizing: inherit;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -42,11 +48,28 @@ h1 {
 }
 
 h2 {
-    font-family: 'impact_label_reversedregular';
+    color: rgb(var(--principal_color));
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5em;
+}
+
+p.significant {
     color: rgb(var(--principal_color));
 }
 
-/* probando */
+.align_right {
+    direction: rtl;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* 
 
 .landing {
     background: linear-gradient(rgba(var(--principal_color), .5), rgba(var(--principal_color), .5)), url('/images/bg.jpg') no-repeat top / cover;
@@ -73,4 +96,4 @@ h2 {
     color: rgb(var(--white));
     padding: .75em 4em;
     text-align: center;
-}
+} */

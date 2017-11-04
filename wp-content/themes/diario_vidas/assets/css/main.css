@@ -50,7 +50,31 @@ h1 {
 
 h2 {
     color: rgb(var(--principal_color));
-    font-size: 3rem;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5rem;
+    color: rgb(var(--principal_color));
+}
+
+h3.member_name {
+    font-family: 'impact_labelregular';
+}
+
+h3.story_title {
+    text-align: center;
+}
+
+h4 {
+    font-size: 2rem;
+    color: rgb(var(--principal_color));
+}
+
+h4.story_author {
+    font-family: 'impact_labelregular';
+    text-align: center;
 }
 
 p {
@@ -60,6 +84,20 @@ p {
 
 p.significant {
     color: rgb(var(--principal_color));
+}
+
+p.story_tags {
+    color: rgb(var(--principal_color));
+    text-align: center;
+}
+
+a {
+   color: rgb(var(--principal_color)); 
+   text-decoration: none;
+}
+
+a:hover {
+   color: rgb(var(--principal_color_dark)); 
 }
 
 .align_right {

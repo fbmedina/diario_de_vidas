@@ -32,7 +32,24 @@
 			     		<p><?php the_content() ?></p>
 			     	</div>
 			     	<div>
-			     		<?php the_post_thumbnail('story_img'); ?>
+			     		<div>
+			     			<?php $image = get_field('imagen_1'); ?>
+    							<img src="<?php echo $image['url']; ?>">
+    					</div>
+
+    					<?php if (get_field('imagen_2')): ?>
+    						<div>
+	    						<?php $image2 = get_field('imagen_2'); ?>
+	    							<img src="<?php echo $image2['url']; ?>">
+	    					</div>
+    					<?php endif ?>
+
+    					<?php if (get_field('imagen_3')): ?>
+    						<div>
+	    						<?php $image3 = get_field('imagen_3'); ?>
+	    							<img src="<?php echo $image3['url']; ?>">
+	    					</div>
+    					<?php endif ?>
 			     	</div>
 			     	<div>
 			     		<p class="story_tags"><?php the_tags( '#', ' #', '' ); ?></p>

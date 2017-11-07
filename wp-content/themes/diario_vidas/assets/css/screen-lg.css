@@ -23,4 +23,31 @@
 	main {
 		padding: 0 10vw;
 	}
+
+	.relato {
+	    display: grid;
+	    grid-gap: var(--top_bottom_gap) var(--sides_gap);
+	    grid-template-columns: repeat(2, 1fr);
+	}
+
+	.relato .about {
+		grid-column:  1 / 3;
+	}
+
+	.relato .content {
+		grid-column: 1;
+	}
+
+	.relato .multimedia {
+		grid-column: 2;
+	}
+
+	.relato .hashtags {
+		grid-column: 1 / 3;
+	}
+
+
+	.relato .multimedia {
+	    flex-direction: column;
+	}
 }

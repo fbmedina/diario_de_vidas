@@ -65,3 +65,12 @@ textarea {
 textarea {
     height: 20rem;
 }
+
+.relato .multimedia {
+    display: flex;
+    flex-direction: column;
+}
+
+.relato .multimedia > div {
+    flex: 1;
+}

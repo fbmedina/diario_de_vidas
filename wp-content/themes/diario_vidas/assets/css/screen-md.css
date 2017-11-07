@@ -52,4 +52,12 @@
 	h4.rol {
 	    text-align: justify;
 	}
+
+	.relato .multimedia {
+	    flex-direction: row;
+	}
+
+	.relato .multimedia > div {
+	    margin: 15px;
+	}
 }

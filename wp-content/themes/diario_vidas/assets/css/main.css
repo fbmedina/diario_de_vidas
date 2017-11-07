@@ -134,6 +134,42 @@ header .down p {
     color: rgba(var(--white), .75);
 }
 
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid rgb(var(--principal_color));
+    padding: 15px;
+}
+
+textarea {
+    resize: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+input[type="file"] {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+input[type="submit"] {
+    background: rgb(var(--principal_color));
+    border-radius: 0;
+    border: none;
+    padding: 15px 45px;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.5rem;
+    display: block;
+    font-family: 'Cutive Mono', monospace;
+}
+
 .align_right {
     direction: rtl;
 }

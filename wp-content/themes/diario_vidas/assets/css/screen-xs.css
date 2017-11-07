@@ -50,3 +50,18 @@ h4.rol {
 .miembro div {
 
 }
+
+form .wpcf7-form {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    display: block;
+}
+
+textarea {
+    height: 20rem;
+}

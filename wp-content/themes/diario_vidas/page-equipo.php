@@ -14,15 +14,17 @@
 			while ( $get_arg->have_posts() ) {
 				$get_arg->the_post();
 			?>
-		     	<section class="half-left">
-		     		<?php the_post_thumbnail('member'); ?>
-		     	</section>
+				<article class="miembro">
+			     	<div class="image">
+			     		<?php the_post_thumbnail('member'); ?>
+			     	</div>
 
-		     	<section class="half-right">
-		     		<h3 class="member_name"><?php the_title() ?></h3>
-		     		<h4 class="rol"><?php echo get_post_meta($post->ID, 'Rol', true); ?></h4>
-		     		<p><?php the_content() ?></p>
-		     	</section>
+			     	<div class="description">
+			     		<h3 class="member_name"><?php the_title() ?></h3>
+			     		<h4 class="rol"><?php echo get_post_meta($post->ID, 'Rol', true); ?></h4>
+			     		<p><?php the_content() ?></p>
+			     	</div>
+			     </article>
 		    <?php } wp_reset_postdata();
 		?>
 </main>

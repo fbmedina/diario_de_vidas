@@ -31,6 +31,7 @@ main {
     display: grid;
     grid-gap: var(--top_bottom_gap) var(--sides_gap);
     align-items: center;
+    grid-template-columns: 1fr;
     width: 100vw;
     padding: 0 5vw;
 }

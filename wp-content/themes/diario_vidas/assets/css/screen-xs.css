@@ -35,3 +35,8 @@ main {
     width: 100vw;
     padding: 0 2.5vw;
 }
+
+h3.member_name,
+h4.rol {
+    text-align: center;
+}

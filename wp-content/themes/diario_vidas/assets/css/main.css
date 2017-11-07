@@ -48,6 +48,7 @@ h1 {
     color: rgb(var(--principal_color));
     font-size: 5rem;
     text-align: center;
+    line-height: 1.25;
 }
 
 h2 {

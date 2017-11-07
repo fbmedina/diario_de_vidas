@@ -82,6 +82,7 @@ h4.story_author {
 
 p {
     font-size: 1.25rem;
+    margin: .5em 0;
 }
 
 p.significant {

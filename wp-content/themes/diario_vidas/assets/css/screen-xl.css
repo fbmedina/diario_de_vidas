@@ -2,4 +2,8 @@
 	body {
 		background: pink;
 	}
+
+	h1 {
+		font-size: 5vw;
+	}
 }

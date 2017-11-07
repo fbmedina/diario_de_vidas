@@ -105,24 +105,31 @@ a:hover {
 }
 
 .centered {
+header {
+    background: url('../images/background.png') no-repeat top / cover;
+}
+
+header h1 {
+    color: rgba(var(--white), .75);
+}
+
+header .main_description {
+    background: rgba(var(--principal_color), .75);
+}
+
+header .main_description p {
+    color: rgb(var(--white));
+    padding: 1em 5em;
     text-align: center;
 }
 
-/* 
+header .down {
 
-.landing {
-    background: linear-gradient(rgba(var(--principal_color), .5), rgba(var(--principal_color), .5)), url('/images/bg.jpg') no-repeat top / cover;
-    display: grid;
-    grid-gap: 15px 30px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    align-items: center;
 }
 
-.landing h1 {
-    color: rgba(var(--white), .8);
-    grid-column: 1 / 11;
-    grid-row: 2;
+header .down p {
+    text-align: center;
+    color: rgba(var(--white), .75);
 }
 
 .landing .description {

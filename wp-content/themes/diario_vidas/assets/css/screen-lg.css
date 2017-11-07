@@ -7,4 +7,16 @@
 		font-size: 6vw;
 	}
 
+	header {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	header h1 {
+		grid-column: 1 / 5;
+	}
+
+	header .main_description,
+	header .down {
+		grid-column: 2 / 4;
+	}
 }

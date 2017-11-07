@@ -80,3 +80,10 @@ Stack trace:
 [06-Nov-2017 13:28:31 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 48
 [06-Nov-2017 18:36:43 UTC] PHP Warning:  Ocurrió un error inesperado. Algo debe estar mal con WordPress.org o la configuración de este servidor. Si continúas con problemas, por favor visita los <a href="https://wordpress.org/support/">foros de soporte</a>. (WordPress no pudo establecer una conexión segura a WordPress.org. Por favor contacta al administrador de tu servidor.) in /Users/franmedina/www/diario_de_vidas/wp-admin/includes/plugin-install.php on line 164
 [07-Nov-2017 15:44:49 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"127.0.0.0","locale":"es_CL","timezone":"America\/Santiago"}},"response_code":200,"response_body":{"location":{"ip":"190.20.108.3"},"events":"1 events trimmed."}}
+[07-Nov-2017 19:24:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function php_info() in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-info.php:1
+Stack trace:
+#0 /Users/franmedina/www/diario_de_vidas/wp-includes/template-loader.php(74): include()
+#1 /Users/franmedina/www/diario_de_vidas/wp-blog-header.php(19): require_once('/Users/franmedi...')
+#2 /Users/franmedina/www/diario_de_vidas/index.php(17): require('/Users/franmedi...')
+#3 {main}
+  thrown in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-info.php on line 1

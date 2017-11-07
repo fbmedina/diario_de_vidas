@@ -27,7 +27,7 @@
 
 html, body{
     box-sizing: border-box;
-    color: var(--font_color);
+    color: rgb(var(--font_color));
     font-family: 'Cutive Mono', monospace;
     text-align: justify;
     height: 100%;

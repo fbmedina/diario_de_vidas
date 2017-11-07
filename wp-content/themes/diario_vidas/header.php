@@ -12,3 +12,17 @@
 <?php if ( has_nav_menu( 'header-menu' ) ) { ?>
 	<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'header_menu' ) ); ?>
 <?php } ?>
+
+	<header>
+		<h1>Diario de Vidas</h1>
+		<div class="main_description">
+			<p>Autobiografía y relatos de vida para el apoyo a la diversidad sexual adolescente.</p>
+		</div>
+		<div class="down">
+			<a href="#main"><p class="big"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></p></a>
+		</div>
+	</header>
+<main id="main">
+	<section class="remarkable">
+		<h1>Diario de Vidas</h1>
+	</section>

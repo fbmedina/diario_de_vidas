@@ -3,7 +3,7 @@
 	<section class="title">
 		<h2><?php the_title() ?></h2>
 	</section>
-	<section class="content">
+	<section class="full">
 		<?php the_content(); ?>
 	</section>
 </main>

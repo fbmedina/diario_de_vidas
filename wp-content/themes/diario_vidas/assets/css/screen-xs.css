@@ -33,5 +33,5 @@ main {
     align-items: center;
     grid-template-columns: 1fr;
     width: 100vw;
-    padding: 0 5vw;
+    padding: 0 2.5vw;
 }

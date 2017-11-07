@@ -15,4 +15,8 @@
 	header .down {
 		grid-column: 2 / 12;
 	}
+
+	main {
+		padding: 0 5vw;
+	}
 }

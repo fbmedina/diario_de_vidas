@@ -6,4 +6,8 @@
 	h1 {
 		font-size: 5vw;
 	}
+
+	main {
+	    padding: 0 15vw;
+	}
 }

@@ -25,6 +25,7 @@ header .main_description {
 
 header .down {
 	grid-row: 4;
+    font-size: 3em;
 }
 
 main {

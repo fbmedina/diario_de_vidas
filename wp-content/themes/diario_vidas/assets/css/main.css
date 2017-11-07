@@ -139,6 +139,7 @@ input[type="email"],
 textarea {
     border: 1px solid rgb(var(--principal_color));
     padding: 15px;
+    font-family: 'Cutive Mono', monospace;
 }
 
 textarea {

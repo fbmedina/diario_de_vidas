@@ -21,6 +21,8 @@
     --principal_color_dark: 18, 36, 114;
     --font_color: 51, 51, 51;
     --white: 255, 255, 255;
+    --top_bottom_gap: 15px;
+    --sides_gap: 30px;
 }
 
 html, body{
@@ -55,7 +57,6 @@ h2 {
 }
 
 h3 {
-    font-size: 2.5rem;
     color: rgb(var(--principal_color));
 }
 
@@ -79,7 +80,6 @@ h4.story_author {
 
 p {
     font-size: 1.25rem;
-    margin-bottom: 1.5em;
 }
 
 p.significant {
@@ -100,11 +100,10 @@ a:hover {
    color: rgb(var(--principal_color_dark)); 
 }
 
-.align_right {
-    direction: rtl;
+iframe {
+    width: 100%;
 }
 
-.centered {
 header {
     background: url('../images/background.png') no-repeat top / cover;
 }
@@ -132,14 +131,14 @@ header .down p {
     color: rgba(var(--white), .75);
 }
 
-.landing .description {
-    grid-column: 4 / 8;
-    background: rgb(var(--principal_color));
-    grid-row: 3;
+.align_right {
+    direction: rtl;
 }
 
-.landing .description p {
-    color: rgb(var(--white));
-    padding: .75em 4em;
+.centered {
     text-align: center;
-} */
+}
+
+.big {
+    font-size: 3em;
+}

@@ -27,4 +27,10 @@ header .down {
 	grid-row: 4;
 }
 
+main {
+    display: grid;
+    grid-gap: var(--top_bottom_gap) var(--sides_gap);
+    align-items: center;
+    width: 100vw;
+    padding: 0 5vw;
 }

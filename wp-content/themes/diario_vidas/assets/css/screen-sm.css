@@ -1,7 +1,4 @@
 @media (min-width: 576px) {
-	body {
-		background: red;
-	}
 
 	header {
 		grid-template-columns: repeat(12, 1fr);

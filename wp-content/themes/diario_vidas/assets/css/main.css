@@ -23,6 +23,7 @@
     --white: 255, 255, 255;
     --top_bottom_gap: 45px;
     --sides_gap: 30px;
+    --opacity: .75;
 }
 
 html, body{
@@ -108,8 +109,8 @@ iframe {
 }
 
 nav.header {
-    color: rgba(var(--white), .75);
-    background: rgba(var(--principal_color), .75);
+    color: rgba(var(--white), var(--opacity));
+    background: rgba(var(--principal_color), var(--opacity));
     position: fixed;
     width: 100%;
     z-index: 99999;
@@ -125,7 +126,7 @@ nav.header {
 .header_menu ul li {
     flex: 1;
     text-align: center;
-    border-right: 1px solid rgba(var(--white), .75);
+    border-right: 1px solid rgba(var(--white), var(--opacity));
 }
 
 .header_menu ul li:last-child {
@@ -133,7 +134,7 @@ nav.header {
 }
 
 .header_menu ul li a {
-    color: rgba(var(--white), .75);
+    color: rgba(var(--white), var(--opacity));
     font-size: 1.6em;
 }
 
@@ -151,11 +152,11 @@ header {
 }
 
 header h1 {
-    color: rgba(var(--white), .75);
+    color: rgba(var(--white), var(--opacity));
 }
 
 header .main_description {
-    background: rgba(var(--principal_color), .75);
+    background: rgba(var(--principal_color), var(--opacity));
 }
 
 header .main_description p {
@@ -170,13 +171,13 @@ header .down {
 
 header .down p {
     text-align: center;
-    color: rgba(var(--white), .75);
+    color: rgba(var(--white), var(--opacity));
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    border: 1px solid rgb(var(--principal_color));
+    border: 1px solid rgb(24, 37, 170);
     padding: 15px;
     font-family: 'Cutive Mono', monospace;
 }
@@ -232,8 +233,8 @@ input[type="submit"] {
 
 nav.footer {
     margin-top: 5rem;
-    border-top: 1px solid rgba(var(--principal_color), .75);
-    color: rgba(var(--principal_color), .75);
+    border-top: 1px solid rgba(var(--principal_color), var(--opacity));
+    color: rgba(var(--principal_color), var(--opacity));
     width: 100%;
 }
 
@@ -246,7 +247,7 @@ nav.footer {
 .footer_menu ul li {
     flex: 1;
     text-align: center;
-    border-right: 1px solid rgba(var(--principal_color), .75);
+    border-right: 1px solid rgba(var(--principal_color), var(--opacity));
 }
 
 .footer_menu ul li:last-child {
@@ -254,7 +255,7 @@ nav.footer {
 }
 
 .footer_menu ul li a {
-    color: rgba(var(--principal_color), .75);
+    color: rgba(var(--principal_color), var(--opacity));
     font-size: 1.6em;
 }
 

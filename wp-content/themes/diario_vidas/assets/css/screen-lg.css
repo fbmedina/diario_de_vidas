@@ -54,4 +54,9 @@
 	.relato .multimedia {
 	    flex-direction: column;
 	}
+
+	.footer_menu ul {
+		width: 75%;
+	}
+
 }

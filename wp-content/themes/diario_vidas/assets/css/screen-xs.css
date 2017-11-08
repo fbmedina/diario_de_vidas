@@ -31,15 +31,15 @@ header {
 }
 
 header h1 {
-	grid-row: 2;
-}
-
-header .main_description {
 	grid-row: 3;
 }
 
-header .down {
+header .main_description {
 	grid-row: 4;
+}
+
+header .down {
+	grid-row: 5;
     font-size: 3em;
 }
 
@@ -73,8 +73,8 @@ form .wpcf7-form {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
     display: block;
+    width: 100%;
 }
 
 textarea {

@@ -1,18 +1,47 @@
 <?php get_header() ?>
 
-<?php if ( have_posts() ) { ?>
-	<?php while ( have_posts() ) { ?>
-		<?php the_post(); ?>
+	<?php if ( have_posts() ) { ?>
+		<section class="full">
+			<?php while ( have_posts() ) { ?>
+				<?php the_post(); ?>
 
-		<?php the_post_thumbnail() ?>
-		<?php the_title() ?>
-		<time datetime="<?php the_time('Y-m-d') ?>"><?php the_time('d \d\e F \d\e Y') ?></time>
-		<?php the_content() ?>
+				<article class="full relato">
+			     	<div class="about">
+			     		<h3 class="story_title"><?php the_title() ?></h3>
+			     		<h4 class="story_author">por: <?php echo get_post_meta($post->ID, 'Autor', true); ?>.</h4>
+			     	</div>
+			     	<div class="content">
+			     		<p><?php the_content() ?></p>
+			     	</div>
+			     	<div class="multimedia">
+			     		<div>
+			     			<?php $image = get_field('imagen_1'); ?>
+								<img src="<?php echo $image['url']; ?>">
+						</div>
 
-	<?php } ?>
-<?php } else { ?>
-	<!-- Content -->
-<?php } wp_reset_query(); ?>
+						<?php if (get_field('imagen_2')): ?>
+							<div>
+	    						<?php $image2 = get_field('imagen_2'); ?>
+	    							<img src="<?php echo $image2['url']; ?>">
+	    					</div>
+						<?php endif ?>
 
-<?php get_sidebar() ?>
+						<?php if (get_field('imagen_3')): ?>
+							<div>
+	    						<?php $image3 = get_field('imagen_3'); ?>
+	    							<img src="<?php echo $image3['url']; ?>">
+	    					</div>
+						<?php endif ?>
+			     	</div>
+			     	<div class="hashtags">
+			     		<p class="story_tags"><?php the_tags( '#', ' #', '' ); ?></p>
+			     	</div>
+			    </article>
+
+			<?php } ?>
+		</section>
+	<?php } else { ?>
+		<!-- Content -->
+	<?php } wp_reset_query(); ?>
+</main>
 <?php get_footer() ?>

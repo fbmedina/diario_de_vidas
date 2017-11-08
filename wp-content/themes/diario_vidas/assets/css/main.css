@@ -107,6 +107,45 @@ iframe {
     width: 100%;
 }
 
+nav.header {
+    color: rgba(var(--white), .75);
+    background: rgba(var(--principal_color), .75);
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    top: 0;
+}
+
+.header_menu ul {
+    list-style-type: none;
+    margin:  0 auto;
+    padding: 30px 0;
+}
+
+.header_menu ul li {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid rgba(var(--white), .75);
+}
+
+.header_menu ul li:last-child {
+    border-right: 0;
+}
+
+.header_menu ul li a {
+    color: rgba(var(--white), .75);
+    font-size: 1.6em;
+}
+
+.header_menu ul li a:hover {
+    color: rgb(var(--white));
+}
+
+.header_menu ul li.current-menu-item a {
+    border-bottom: 1px solid rgb(var(--white));
+    color: rgb(var(--white));
+}
+
 header {
     background: url('../images/background.png') no-repeat top / cover;
 }

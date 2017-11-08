@@ -7,6 +7,10 @@
 		font-size: 6vw;
 	}
 
+	.header_menu ul {
+		width: 75%;
+	}
+
 	header {
 		grid-template-columns: repeat(4, 1fr);
 	}

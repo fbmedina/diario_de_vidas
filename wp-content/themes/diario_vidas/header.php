@@ -10,7 +10,10 @@
 <body>
 
 <?php if ( has_nav_menu( 'header-menu' ) ) { ?>
-	<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'header_menu' ) ); ?>
+	<nav class="header">
+		<p class="centered big"><i class="fa fa-bars" aria-hidden="true"></i></p>
+		<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'header_menu' ) ); ?>
+	</nav>
 <?php } ?>
 
 	<header>

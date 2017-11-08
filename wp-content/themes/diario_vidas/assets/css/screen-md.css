@@ -7,6 +7,23 @@
 		font-size: 7.5vw;
 	}
 
+	nav.header p {
+		display: none;
+	}
+
+	.header_menu ul {
+	    display: flex;
+	    justify-content: space-around;
+	}
+
+	.header_menu ul li {
+	    margin-bottom: 0;
+	}
+
+	nav.header:hover .header_menu ul,
+	nav.header:focus .header_menu ul {
+	    flex-direction: inherit;
+	}
 	main{
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: auto;

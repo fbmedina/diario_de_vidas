@@ -6,6 +6,24 @@ h1 {
     font-size: 10vw;
 }
 
+nav.header p {
+    cursor: pointer;
+}
+
+.header_menu ul {
+    display: none;
+}
+
+nav.header:hover .header_menu ul,
+nav.header:focus .header_menu ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_menu ul li{
+    margin-bottom: 2rem;
+}
+
 header {
 	grid-template-rows: repeat(6, auto);
 	grid-template-columns: 1fr;

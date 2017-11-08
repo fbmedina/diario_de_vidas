@@ -21,6 +21,7 @@
 	nav.header:focus .header_menu ul {
 	    flex-direction: inherit;
 	}
+
 	main{
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: auto;
@@ -73,5 +74,23 @@
 
 	.relato .multimedia > div {
 	    margin: 15px;
+	}
+
+	nav.footer p {
+		display: none;
+	}
+
+	.footer_menu ul {
+	    display: flex;
+	    justify-content: space-around;
+	}
+
+	.footer_menu ul li {
+	    margin-bottom: 0;
+	}
+
+	nav.footer:hover .footer_menu ul,
+	nav.footer:focus .footer_menu ul {
+	    flex-direction: inherit;
 	}
 }

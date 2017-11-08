@@ -16,7 +16,9 @@
 		?>
 			<article class="full relato">
 		     	<div class="about">
-		     		<h3 class="story_title"><?php the_title() ?></h3>
+		     		<a href="<?php the_permalink() ?>">
+		     			<h3 class="story_title"><?php the_title() ?></h3>
+		     		</a>
 		     		<h4 class="story_author">por: <?php echo get_post_meta($post->ID, 'Autor', true); ?>.</h4>
 		     	</div>
 		     	<div class="content">

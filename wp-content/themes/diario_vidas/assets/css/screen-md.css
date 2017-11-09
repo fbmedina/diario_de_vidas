@@ -70,6 +70,7 @@
 
 	.relato .multimedia {
 	    flex-direction: row;
+	    align-items: center;
 	}
 
 	.relato .multimedia > div {

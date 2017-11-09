@@ -27,7 +27,7 @@ header {
 	grid-gap: var(--top_bottom_gap) var(--sides_gap);
 	display: grid;
     align-items: center;
-    height: 100vh;
+    height: 75vh;
 }
 
 header h1 {

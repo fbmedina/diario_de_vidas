@@ -191,12 +191,9 @@ label {
 }
 
 input[type="file"] {
-    width: 0.1px;
-    height: 0.1px;
-    opacity: 0;
-    overflow: hidden;
-    position: absolute;
-    z-index: -1;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1.25rem;
+    margin: .5em 0;
 }
 
 input[type="submit"] {

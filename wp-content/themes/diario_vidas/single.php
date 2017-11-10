@@ -9,6 +9,7 @@
 			     	<div class="about">
 			     		<h3 class="story_title"><?php the_title() ?></h3>
 			     		<h4 class="story_author">por: <?php echo get_post_meta($post->ID, 'Autor', true); ?>.</h4>
+			     		<h5 class="author_age">(<?php echo get_post_meta($post->ID, 'Edad', true); ?> años)</h5>
 			     	</div>
 			     	<div class="content">
 			     		<p><?php the_content() ?></p>

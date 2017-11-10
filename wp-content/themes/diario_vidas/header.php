@@ -27,5 +27,5 @@
 	</header>
 <main id="main">
 	<section class="remarkable">
-		<h1>Diario de Vidas</h1>
+		<h1><?php the_title() ?></h1>
 	</section>

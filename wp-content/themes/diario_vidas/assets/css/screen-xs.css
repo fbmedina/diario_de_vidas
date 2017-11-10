@@ -38,6 +38,10 @@ header .main_description {
 	grid-row: 4;
 }
 
+header .main_description p {
+    padding: 1em 2em;
+}
+
 header .down {
 	grid-row: 5;
     font-size: 3em;

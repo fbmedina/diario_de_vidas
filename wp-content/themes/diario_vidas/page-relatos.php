@@ -1,8 +1,5 @@
 <?php get_header() ?>
 
-	<section class="title">
-		<h2><?php the_title() ?></h2>
-	</section>
 	<?php
 		$arg = array(
 			'post_type'		 => 'story',

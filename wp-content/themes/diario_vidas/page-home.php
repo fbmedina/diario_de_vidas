@@ -1,9 +1,5 @@
 <?php get_header() ?>
 
-	<section class="title">
-		<h2><?php the_title() ?></h2>
-	</section>
-
 	<section class="half-left">
 		<p><?php the_field('que_es_ddv_1'); ?></p>
 	</section>

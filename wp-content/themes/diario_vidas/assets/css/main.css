@@ -184,6 +184,7 @@ header .down p {
 
 input[type="text"],
 input[type="email"],
+input[type="number"],
 textarea {
     border: 1px solid rgb(24, 37, 170);
     padding: 15px;

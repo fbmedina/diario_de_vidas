@@ -81,6 +81,10 @@ textarea {
     width: 100%;
 }
 
+input[type="number"] {
+    width: 50%;
+}
+
 textarea {
     height: 20rem;
 }

@@ -76,9 +76,18 @@ h4 {
     color: rgb(var(--principal_color));
 }
 
+h5 {
+    font-size: 1.5rem;
+}
+
 h4.story_author {
     font-family: 'impact_labelregular';
     text-align: center;
+}
+
+h5.author_age {
+    text-align: center;
+    color: rgb(var(--principal_color));
 }
 
 p {

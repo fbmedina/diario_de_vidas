@@ -16,7 +16,12 @@
 
 	<section class="half-left">
 		<p class="significant">Ejemplo de video:</p>
-		<?php the_field('video_de_ejemplo'); ?>
+		<?php if (get_field('video_de_ejemplo')): ?>
+			<?php the_field('video_de_ejemplo'); ?>
+		<?php else: ?>
+			<?php $image = get_field('imagen_2'); ?>
+			<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+		<?php endif ?>
 	</section>
 
 	<section class="half-right">	

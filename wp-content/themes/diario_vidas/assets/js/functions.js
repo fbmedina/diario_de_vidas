@@ -2,7 +2,7 @@
 
 var WordCounter = (function() {
 
-	var textOutput = $('.wpcf7-character-count')
+	var textOutput = $('.numero')
 
 	function init() {}
 
@@ -17,9 +17,11 @@ var WordCounter = (function() {
 	function render(i) {
 		textOutput.text(i)
 		
-		(i > 200) 
-			? textOutput.parent().find('.msg').text('Has excedido el máximo de palabras')
-			: textOutput.parent().find('.msg').text('')
+		if (i > 200) {
+			textOutput.parent().find('.msg').text('Has excedido el máximo de palabras')
+		} else {
+			textOutput.parent().find('.msg').text('')
+		}
 	}
 
 	function removeDots(valor) {

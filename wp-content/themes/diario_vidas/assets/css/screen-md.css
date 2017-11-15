@@ -18,7 +18,8 @@
 	}
 
 	nav.header:hover .header_menu ul,
-	nav.header:focus .header_menu ul {
+	nav.header:focus .header_menu ul,
+	nav.header:active .header_menu ul {
 	    flex-direction: inherit;
 	}
 

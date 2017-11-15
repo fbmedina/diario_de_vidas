@@ -13,7 +13,8 @@ nav.header p {
 }
 
 nav.header:hover .header_menu ul,
-nav.header:focus .header_menu ul {
+nav.header:focus .header_menu ul,
+nav.header:active .header_menu ul {
     display: flex;
     flex-direction: column;
 }

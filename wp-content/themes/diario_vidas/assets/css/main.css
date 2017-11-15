@@ -44,18 +44,12 @@ img {
     height: auto;
 }
 
-h1 {
+h1, h2 {
     font-family: 'impact_labelregular';
     color: rgb(var(--principal_color));
     font-size: 5rem;
     text-align: center;
     line-height: 1.25;
-}
-
-h2 {
-    color: rgb(var(--principal_color));
-    font-size: 3.5rem;
-    text-align: center;
 }
 
 h3 {

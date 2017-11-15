@@ -5,6 +5,7 @@ h1, h2 {
 
 nav.header p {
     cursor: pointer;
+    margin: 0;
 }
 
 .header_menu ul {

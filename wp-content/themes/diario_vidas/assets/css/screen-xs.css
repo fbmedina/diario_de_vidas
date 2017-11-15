@@ -23,7 +23,7 @@ nav.header:focus .header_menu ul {
 }
 
 header {
-	grid-template-rows: repeat(6, auto);
+	grid-template-rows: repeat(6, 1fr);
 	grid-template-columns: 1fr;
 	grid-gap: var(--top_bottom_gap) var(--sides_gap);
 	display: grid;
@@ -32,11 +32,11 @@ header {
 }
 
 header h1 {
-	grid-row: 3;
+	grid-row: 4;
 }
 
 header .main_description {
-	grid-row: 4;
+	grid-row: 5;
 }
 
 header .main_description p {
@@ -44,7 +44,7 @@ header .main_description p {
 }
 
 header .down {
-	grid-row: 5;
+	grid-row: 6;
     font-size: 3em;
 }
 

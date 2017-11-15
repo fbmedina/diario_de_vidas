@@ -85,21 +85,13 @@
 	    margin: 15px;
 	}
 
-	nav.footer p {
-		display: none;
-	}
-
 	.footer_menu ul {
 	    display: flex;
 	    justify-content: space-around;
+	    flex-direction: row;
 	}
 
 	.footer_menu ul li {
 	    margin-bottom: 0;
-	}
-
-	nav.footer:hover .footer_menu ul,
-	nav.footer:focus .footer_menu ul {
-	    flex-direction: inherit;
 	}
 }

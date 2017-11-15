@@ -99,16 +99,8 @@ textarea {
     margin: 15px 0;
 }
 
-nav.footer p {
-    cursor: pointer;
-}
 
 .footer_menu ul {
-    display: none;
-}
-
-nav.footer:hover .footer_menu ul,
-nav.footer:focus .footer_menu ul {
     display: flex;
     flex-direction: column;
 }

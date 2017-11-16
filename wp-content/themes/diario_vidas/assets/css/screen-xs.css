@@ -8,13 +8,15 @@ nav.header p {
     margin: 0;
 }
 
-.header_menu ul {
+nav.header p i.fa-bars {
+    padding: 0 5em;
+}
+
+.header_menu ul.menu {
     display: none;
 }
 
-nav.header:hover .header_menu ul,
-nav.header:focus .header_menu ul,
-nav.header:active .header_menu ul {
+.header_menu ul.display-menu {
     display: flex;
     flex-direction: column;
 }

@@ -6,9 +6,10 @@
 
 	nav.header p {
 		display: none;
+		width: 0;
 	}
 
-	.header_menu ul {
+	.header_menu ul.menu {
 	    display: flex;
 	    justify-content: space-around;
 	}

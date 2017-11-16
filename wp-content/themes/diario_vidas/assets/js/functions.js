@@ -41,3 +41,12 @@ var field = $('[name="el_relato"]')
 if (field) {
 	WordCounter.init(field)
 }
+
+$(document).ready(function($) {
+
+
+	$('i.fa-bars').on('click', null, function(h) {
+	    $('ul.menu').toggleClass('display-menu');
+	});
+
+});

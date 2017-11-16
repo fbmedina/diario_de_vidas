@@ -9,7 +9,7 @@ var WordCounter = (function() {
 	$('[name="el_relato"]').on('paste keyup', wordLength)
 
 	function wordLength(e) {
-		var field_length = field.val().replace(/(\r\n|\n|\r)/gm,"").split(' ')
+		var field_length = field.val().replace(/(\r\r)/gm,"").split(/[\s,]+/)
 		field_length = field_length.filter(Boolean).filter(removeDots)
 		render(field_length.length)
 	}

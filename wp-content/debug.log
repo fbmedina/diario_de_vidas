@@ -304,3 +304,15 @@ Stack trace:
 [15-Nov-2017 23:46:50 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"127.0.0.0","locale":"es_CL","timezone":"America\/Santiago"}},"response_code":200,"response_body":{"location":{"ip":"201.238.243.178"},"events":"1 events trimmed."}}
 [16-Nov-2017 03:11:23 UTC] PHP Fatal error:  Cannot redeclare create_post_type() (previously declared in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/functions/custom_story.php:61) in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/functions/custom_story_archive.php on line 15
 [16-Nov-2017 03:33:58 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"::","locale":"es_CL","timezone":"America\/Santiago"}},"response_code":200,"response_body":{"location":{"ip":"200.83.181.229"},"events":"1 events trimmed."}}
+[16-Nov-2017 04:53:26 UTC] PHP Notice:  Undefined index: input in /Users/franmedina/www/diario_de_vidas/wp-includes/kses.php on line 867
+[16-Nov-2017 04:53:27 UTC] PHP Notice:  Undefined index: input in /Users/franmedina/www/diario_de_vidas/wp-includes/kses.php on line 867
+[16-Nov-2017 05:13:02 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/franmedina/www/diario_de_vidas/wp-includes/wp-db.php on line 1603
+[16-Nov-2017 06:01:41 UTC] PHP Fatal error:  Uncaught JSMin_UnterminatedRegExpException: JSMin: Unterminated RegExp at byte 240: /)
+ in /Users/franmedina/www/diario_de_vidas/wp-content/plugins/autoptimize/classes/external/php/minify-2.3.1-jsmin.php:262
+Stack trace:
+#0 /Users/franmedina/www/diario_de_vidas/wp-content/plugins/autoptimize/classes/external/php/minify-2.3.1-jsmin.php(150): JSMin->action(1)
+#1 /Users/franmedina/www/diario_de_vidas/wp-content/plugins/autoptimize/classes/external/php/minify-2.3.1-jsmin.php(84): JSMin->min()
+#2 /Users/franmedina/www/diario_de_vidas/wp-content/plugins/autoptimize/classlesses/autoptimizeSpeedupper.php(17): JSMin::minify('\n\nvar WordCount...')
+#3 /Users/franmedina/www/diario_de_vidas/wp-includes/class-wp-hook.php(298): ao_js_snippetcacher('\n\nvar WordCount...', '/Users/franmedi...')
+#4 /Users/franmedina/www/diario_de_vidas/wp-includes/plugin.php(203): WP_Hook->apply_filters('\n\nvar WordCount...', Array)
+#5 /Users/franmedina/www/diario_de_vidas/wp-content/plugins/autoptimize/classes/autoptimizeScripts.php(241): a in /Users/franmedina/www/diario_de_vidas/wp-content/plugins/autoptimize/classes/external/php/minify-2.3.1-jsmin.php on line 262

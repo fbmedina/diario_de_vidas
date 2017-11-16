@@ -129,7 +129,6 @@ nav.header {
 .header_menu ul li {
     flex: 1;
     text-align: center;
-    border-right: 1px solid rgba(var(--white), var(--opacity));
 }
 
 .header_menu ul li:last-child {
@@ -252,7 +251,6 @@ nav.footer {
 .footer_menu ul li {
     flex: 1;
     text-align: center;
-    border-right: 1px solid rgba(var(--principal_color), var(--opacity));
 }
 
 .footer_menu ul li:last-child {

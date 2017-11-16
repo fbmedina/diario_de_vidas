@@ -16,6 +16,7 @@
 
 	.header_menu ul li {
 	    margin-bottom: 0;
+	    border-right: 1px solid rgba(var(--white), var(--opacity));
 	}
 
 	nav.header:hover .header_menu ul,
@@ -95,5 +96,6 @@
 
 	.footer_menu ul li {
 	    margin-bottom: 0;
+	    border-right: 1px solid rgba(var(--principal_color), var(--opacity));
 	}
 }

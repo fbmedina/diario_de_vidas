@@ -153,7 +153,9 @@ header {
     background: url('../images/background.png') no-repeat top / cover;
 }
 
-header h1 {
+header h1,
+header h1 a,
+header h1 a:hover {
     color: rgba(var(--white), var(--opacity));
 }
 

@@ -27,7 +27,7 @@
 <?php } ?>
 
 	<header>
-		<h1>Diario de Vidas</h1>
+		<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Diario de Vidas</a></h1>
 		<div class="main_description">
 			<p>Autobiografía y relatos de vida para el apoyo a la diversidad sexual adolescente.</p>
 		</div>

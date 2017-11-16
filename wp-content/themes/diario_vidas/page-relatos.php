@@ -25,7 +25,7 @@
 		     	<div class="multimedia">
 		     		<div>
 		     			<?php $image = get_field('imagen_1'); ?>
-							<img src="<?php echo $image['url']; ?>">
+							<img src="<?php echo $image['sizes']['story_img']; ?>">
 					</div>
 
 					<?php if (get_field('imagen_2')): ?>

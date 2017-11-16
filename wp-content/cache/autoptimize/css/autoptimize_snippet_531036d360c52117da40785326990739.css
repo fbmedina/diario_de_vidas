@@ -1,0 +1,1 @@
+@media(min-width:576px){header{grid-template-columns:repeat(12,1fr)}header h1{grid-column:1 / 13}header .main_description,header .down{grid-column:2 / 12}main{padding:0 5vw}}

@@ -209,6 +209,7 @@ input[type="submit"] {
     font-size: 1.5rem;
     display: block;
     font-family: 'Cutive Mono', monospace;
+    -webkit-appearance: none;
 }
 
 .align_right {

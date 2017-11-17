@@ -17,20 +17,20 @@
 			     	<div class="multimedia">
 			     		<div>
 			     			<?php $image = get_field('imagen_1'); ?>
-								<img src="<?php echo $image['url']; ?>">
+								<img src="<?php echo $image['sizes']['story_img']; ?>">
 						</div>
 
 						<?php if (get_field('imagen_2')): ?>
 							<div>
 	    						<?php $image2 = get_field('imagen_2'); ?>
-	    							<img src="<?php echo $image2['url']; ?>">
+	    							<img src="<?php echo $image2['sizes']['story_img']; ?>">
 	    					</div>
 						<?php endif ?>
 
 						<?php if (get_field('imagen_3')): ?>
 							<div>
 	    						<?php $image3 = get_field('imagen_3'); ?>
-	    							<img src="<?php echo $image3['url']; ?>">
+	    							<img src="<?php echo $image3['sizes']['story_img']; ?>">
 	    					</div>
 						<?php endif ?>
 			     	</div>

@@ -27,6 +27,7 @@
 	<section class="full">
 		<p>El siguiente es un ejemplo de relato real enviado anónimamente:</p>
 		<p class="significant"><?php the_field('ejemplo_relato'); ?></p>
+		<p class="centered"><a href="/buzon" class="btn">Participa Aquí</a></p>
 	</section>
 </main>
 

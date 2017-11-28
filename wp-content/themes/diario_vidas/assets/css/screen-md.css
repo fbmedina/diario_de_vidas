@@ -65,12 +65,12 @@
 	}
 
 	.miembro .image {
-		flex: 6;
+		flex: 5;
 		margin-right: calc(var(--sides_gap)/2);
 	}
 
 	.miembro .description {
-		flex: 5;
+		flex: 6;
 		margin-left: calc(var(--sides_gap)/2);
 	}
 

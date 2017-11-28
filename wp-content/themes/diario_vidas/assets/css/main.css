@@ -107,6 +107,15 @@ a:hover {
    color: rgb(var(--principal_color_dark)); 
 }
 
+a.btn {
+    background: rgb(var(--principal_color));
+    padding: 15px 45px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Cutive Mono', monospace;
+    line-height: 5em;
+}
+
 iframe {
     width: 100%;
 }

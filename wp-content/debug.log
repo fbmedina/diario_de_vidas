@@ -316,3 +316,90 @@ Stack trace:
 #3 /Users/franmedina/www/diario_de_vidas/wp-includes/class-wp-hook.php(298): ao_js_snippetcacher('\n\nvar WordCount...', '/Users/franmedi...')
 #4 /Users/franmedina/www/diario_de_vidas/wp-includes/plugin.php(203): WP_Hook->apply_filters('\n\nvar WordCount...', Array)
 #5 /Users/franmedina/www/diario_de_vidas/wp-content/plugins/autoptimize/classes/autoptimizeScripts.php(241): a in /Users/franmedina/www/diario_de_vidas/wp-content/plugins/autoptimize/classes/external/php/minify-2.3.1-jsmin.php on line 262
+[16-Nov-2017 15:08:38 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:08:38 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:08:38 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:08:53 UTC] PHP Notice:  Undefined index: dl_image_sizes in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:08:53 UTC] PHP Notice:  Undefined index: dl_image_sizes in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:08:53 UTC] PHP Notice:  Undefined index: dl_image_sizes in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:09:26 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:09:26 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:09:26 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:09:38 UTC] PHP Notice:  Undefined index: story_img in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:09:38 UTC] PHP Notice:  Undefined index: story_img in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:09:38 UTC] PHP Notice:  Undefined index: story_img in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:09:50 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:09:50 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:09:50 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:09:53 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:09:53 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:09:53 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:11:14 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:11:14 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:11:14 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:11:14 UTC] PHP Warning:  Illegal string offset 'url' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:12:01 UTC] PHP Notice:  Undefined index: image_size_names_choose in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:12:01 UTC] PHP Notice:  Undefined index: image_size_names_choose in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:12:01 UTC] PHP Notice:  Undefined index: image_size_names_choose in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:12:01 UTC] PHP Notice:  Undefined index: image_size_names_choose in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:12:21 UTC] PHP Notice:  Undefined index: size in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:12:21 UTC] PHP Notice:  Undefined index: size in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:12:21 UTC] PHP Notice:  Undefined index: size in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:12:21 UTC] PHP Notice:  Undefined index: size in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:12:35 UTC] PHP Notice:  Undefined index: story_img in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:12:35 UTC] PHP Notice:  Undefined index: story_img in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:12:35 UTC] PHP Notice:  Undefined index: story_img in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:12:35 UTC] PHP Notice:  Undefined index: story_img in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:12:50 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:12:50 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:12:50 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:12:50 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 27
+[16-Nov-2017 15:13:49 UTC] PHP Warning:  Illegal string offset 'sizes' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:13:49 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:13:49 UTC] PHP Warning:  Illegal string offset 'sizes' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:13:49 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:13:49 UTC] PHP Warning:  Illegal string offset 'sizes' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:13:49 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:13:49 UTC] PHP Warning:  Illegal string offset 'sizes' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:13:49 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:02 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:02 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:02 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:02 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:10 UTC] PHP Warning:  Illegal string offset 'size' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:10 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:10 UTC] PHP Warning:  Illegal string offset 'size' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:10 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:10 UTC] PHP Warning:  Illegal string offset 'size' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:10 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:10 UTC] PHP Warning:  Illegal string offset 'size' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:10 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:25 UTC] PHP Warning:  Illegal string offset 'dl_image_sizes' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:25 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:25 UTC] PHP Warning:  Illegal string offset 'dl_image_sizes' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:25 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:25 UTC] PHP Warning:  Illegal string offset 'dl_image_sizes' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:25 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:25 UTC] PHP Warning:  Illegal string offset 'dl_image_sizes' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:25 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:49 UTC] PHP Notice:  Undefined variable: sizes in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:49 UTC] PHP Notice:  String offset cast occurred in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:49 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:49 UTC] PHP Notice:  Undefined variable: sizes in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:49 UTC] PHP Notice:  String offset cast occurred in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:49 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:49 UTC] PHP Notice:  Undefined variable: sizes in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:49 UTC] PHP Notice:  String offset cast occurred in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:49 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:49 UTC] PHP Notice:  Undefined variable: sizes in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:49 UTC] PHP Notice:  String offset cast occurred in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:14:49 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:15:11 UTC] PHP Warning:  Illegal string offset 'image_size_names_choose' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:15:11 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:15:11 UTC] PHP Warning:  Illegal string offset 'image_size_names_choose' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:15:11 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:15:11 UTC] PHP Warning:  Illegal string offset 'image_size_names_choose' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:15:11 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:15:11 UTC] PHP Warning:  Illegal string offset 'image_size_names_choose' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:15:11 UTC] PHP Warning:  Illegal string offset 'story_img' in /Users/franmedina/www/diario_de_vidas/wp-content/themes/diario_vidas/page-relatos.php on line 28
+[16-Nov-2017 15:42:34 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"::","locale":"es_CL","timezone":"America\/Santiago"}},"response_code":200,"response_body":{"location":{"ip":"200.83.181.229"},"events":"1 events trimmed."}}

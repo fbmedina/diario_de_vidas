@@ -172,6 +172,23 @@ html, body{
 		display: inline;
 	}
 
+	.relato .about > *{
+		display: block;
+	}
+
+	.relato .about,
+	.relato .hashtags {
+		width: 100%;
+	}
+
+	.relato .content,
+	.relato .multimedia,
+	.relato .hashtags,
+	main > .half-left,
+	main > .half-right  {
+		margin-top: 45px;
+	}
+
 	@media (min-width: 576px) {
 
 		header .main_description,
@@ -185,7 +202,6 @@ html, body{
 		main > .half-right {
 			width: calc(50% - 15px);
 			vertical-align: middle;
-			margin-top: 45px;
 		}
 	}
 
@@ -200,19 +216,9 @@ html, body{
 		    flex-wrap: wrap;
 		}
 
-		.relato .about > *{
-			display: block;
-		}
-
-		.relato .about,
-		.relato .hashtags {
-			width: 100%;
-		}
-
 		.relato .content,
 		.relato .multimedia {
 			width: calc(50% - 15px);
-			margin-top: 45px;
 		}
 
 		.relato .content {
@@ -221,10 +227,6 @@ html, body{
 
 		.relato .multimedia {
 			margin-left: 15px;
-		}
-
-		.relato .hashtags {
-			margin-top: 45px;
 		}
 	}
 }

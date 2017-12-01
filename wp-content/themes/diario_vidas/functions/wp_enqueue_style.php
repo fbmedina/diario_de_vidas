@@ -5,7 +5,8 @@
 
 		/* Register Scripts */
 		wp_register_style('reset', get_parent_theme_file_uri('/assets/css/reset.css'), null, $theme_data->get( 'Version' ), 'screen');
-		wp_register_style('mainStyle', get_parent_theme_file_uri('/assets/css/main.css'), array('reset'), $theme_data->get( 'Version' ), 'screen');
+		wp_register_style('supports', get_parent_theme_file_uri('/assets/css/supports.css'), array('reset'), $theme_data->get( 'Version' ), 'screen');
+		wp_register_style('mainStyle', get_parent_theme_file_uri('/assets/css/main.css'), array('supports'), $theme_data->get( 'Version' ), 'screen');
 		wp_register_style('extraSmallScreen', get_theme_file_uri() . '/assets/css/screen-xs.css', array('mainStyle'), $theme_data->get( 'Version' ), 'screen');
 		wp_register_style('smallScreen', get_theme_file_uri() . '/assets/css/screen-sm.css', array('extraSmallScreen'), $theme_data->get( 'Version' ), 'screen');
 		wp_register_style('mediumScreen', get_theme_file_uri() . '/assets/css/screen-md.css', array('smallScreen'), $theme_data->get( 'Version' ), 'screen');

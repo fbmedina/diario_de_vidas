@@ -203,6 +203,14 @@ html, body{
 			width: calc(50% - 15px);
 			vertical-align: middle;
 		}
+
+		main > .half-left {
+			margin-right: 15px;
+		}
+
+		main > .half-right {
+			margin-left: 15px;
+		}
 	}
 
 	@media (min-width: 992px) {

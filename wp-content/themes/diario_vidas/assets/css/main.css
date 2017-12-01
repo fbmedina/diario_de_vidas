@@ -63,6 +63,7 @@ h3.member_name {
 
 h3.story_title {
     text-align: center;
+    display: block;
 }
 
 h4 {
@@ -96,6 +97,7 @@ p.significant {
 p.story_tags {
     color: rgb(var(--principal_color));
     text-align: center;
+    display: block;
 }
 
 a {
@@ -114,6 +116,7 @@ a.btn {
     font-size: 1.5rem;
     font-family: 'Cutive Mono', monospace;
     line-height: 5em;
+    display: inline;
 }
 
 iframe {
@@ -227,10 +230,13 @@ input[type="submit"] {
 
 .align_right {
     direction: rtl;
+    text-align: right;
+    display: block;
 }
 
 .centered {
     text-align: center;
+    display: block;
 }
 
 .big {

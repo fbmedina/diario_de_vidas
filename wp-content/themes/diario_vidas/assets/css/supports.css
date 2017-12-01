@@ -120,12 +120,117 @@ html, body{
 @supports not (display: grid) {
 	header {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 	    justify-content: center;
-	    padding-top: 100px;
+	    padding-top: 125px;
 	}
 
 	header > * {
-		margin: 45px 30px;
+		margin: 0 30px;
+	}
+
+	header .main_description {
+		margin-top: 45px;
+		width: 100%;
+	}
+
+	main *{
+	    display: inline-block;
+	}
+
+	main .remarkable {
+		width: 100%;
+		text-align: center;
+	}
+
+	main > .half-left,
+	main > .half-right {
+		width: 100%;
+	}
+
+	.title,
+	.full,
+	.miembro {
+		margin-top: 45px;
+		width:  100%;
+	}
+
+	div.wpcf7 {
+		width: 100%;
+	}
+
+	form {
+		display: block;
+		width: 100%;
+	}
+
+	form * {
+		display: block;
+	}
+
+	form span {
+		display: inline;
+	}
+
+	@media (min-width: 576px) {
+
+		header .main_description,
+		header .down {
+			width: 83.33333333333334%;
+		}
+	}
+
+	@media (min-width: 768px) {
+		main > .half-left,
+		main > .half-right {
+			width: calc(50% - 15px);
+			vertical-align: middle;
+			margin-top: 45px;
+		}
+	}
+
+	@media (min-width: 992px) {
+		header .main_description,
+		header .down {
+			width: 50%;
+		}
+
+		.relato {
+		    display: flex;
+		    flex-wrap: wrap;
+		}
+
+		.relato .about > *{
+			display: block;
+		}
+
+		.relato .about,
+		.relato .hashtags {
+			width: 100%;
+		}
+
+		.relato .content,
+		.relato .multimedia {
+			width: calc(50% - 15px);
+			margin-top: 45px;
+		}
+
+		.relato .content {
+			margin-right: 15px;
+		}
+
+		.relato .multimedia {
+			margin-left: 15px;
+		}
+
+		.relato .hashtags {
+			margin-top: 45px;
+		}
+	}
+}
+
+@supports not (direction: rtl) {
+	.align_right {
+	    text-align: right;
 	}
 }

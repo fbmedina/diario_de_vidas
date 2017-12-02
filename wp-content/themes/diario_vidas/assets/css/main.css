@@ -59,6 +59,7 @@ h3 {
 
 h3.member_name {
     font-family: 'impact_labelregular';
+    display: block;
 }
 
 h3.story_title {
@@ -78,6 +79,10 @@ h5 {
 h4.story_author {
     font-family: 'impact_labelregular';
     text-align: center;
+}
+
+h4.rol {
+    display: block;
 }
 
 h5.author_age {
